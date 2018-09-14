@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (BSAdd)
-
++ (UIImage *)imageWithColor:(UIColor *)aColor;
 @end
