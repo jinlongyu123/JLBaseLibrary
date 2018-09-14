@@ -18,6 +18,8 @@
 		0DE1A198214B844700E37FC1 /* UIButton+BSFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1A196214B844700E37FC1 /* UIButton+BSFly.m */; };
 		0DE1A19B214B871800E37FC1 /* UIDevice+BSAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE1A199214B871800E37FC1 /* UIDevice+BSAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DE1A19C214B871800E37FC1 /* UIDevice+BSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1A19A214B871800E37FC1 /* UIDevice+BSAdd.m */; };
+		0DE1A19F214B912000E37FC1 /* UILabel+BSFly.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE1A19D214B912000E37FC1 /* UILabel+BSFly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE1A1A0214B912000E37FC1 /* UILabel+BSFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1A19E214B912000E37FC1 /* UILabel+BSFly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		0DE1A196214B844700E37FC1 /* UIButton+BSFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BSFly.m"; sourceTree = "<group>"; };
 		0DE1A199214B871800E37FC1 /* UIDevice+BSAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BSAdd.h"; sourceTree = "<group>"; };
 		0DE1A19A214B871800E37FC1 /* UIDevice+BSAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BSAdd.m"; sourceTree = "<group>"; };
+		0DE1A19D214B912000E37FC1 /* UILabel+BSFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+BSFly.h"; sourceTree = "<group>"; };
+		0DE1A19E214B912000E37FC1 /* UILabel+BSFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BSFly.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				0DE1A196214B844700E37FC1 /* UIButton+BSFly.m */,
 				0DE1A199214B871800E37FC1 /* UIDevice+BSAdd.h */,
 				0DE1A19A214B871800E37FC1 /* UIDevice+BSAdd.m */,
+				0DE1A19D214B912000E37FC1 /* UILabel+BSFly.h */,
+				0DE1A19E214B912000E37FC1 /* UILabel+BSFly.m */,
 			);
 			path = JLBaseLibrary;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 				0DE1A18F214B42C700E37FC1 /* NSDate+Ago.h in Headers */,
 				0DBDEFC0214A362300A3BD4C /* JLBaseLibrary.h in Headers */,
 				0DE1A197214B844700E37FC1 /* UIButton+BSFly.h in Headers */,
+				0DE1A19F214B912000E37FC1 /* UILabel+BSFly.h in Headers */,
 				0DE1A193214B482900E37FC1 /* UIImage+BSAdd.h in Headers */,
 				0DE1A19B214B871800E37FC1 /* UIDevice+BSAdd.h in Headers */,
 			);
@@ -166,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE1A198214B844700E37FC1 /* UIButton+BSFly.m in Sources */,
+				0DE1A1A0214B912000E37FC1 /* UILabel+BSFly.m in Sources */,
 				0DE1A190214B42C700E37FC1 /* NSDate+Ago.m in Sources */,
 				0DE1A194214B482900E37FC1 /* UIImage+BSAdd.m in Sources */,
 				0DE1A19C214B871800E37FC1 /* UIDevice+BSAdd.m in Sources */,

@@ -10,6 +10,7 @@
 #import <JLBaseLibrary/JLBaseLibrary.h>
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *lable;
 
 @end
 
@@ -18,7 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-   self.imageView.image = [UIImage imageWithColor:[UIColor redColor]];
+    self.imageView.image = [UIImage imageWithColor:[UIColor redColor]];
+    [self.lable colorSubstring:@"123" newColor:[UIColor blueColor]];
+    [self.lable fontSubstring:@"456" newFont:[UIFont systemFontOfSize:20]];
+    [self.lable boldColorSubstring:@"789" newColor:[UIColor redColor]];
 }
 
 
