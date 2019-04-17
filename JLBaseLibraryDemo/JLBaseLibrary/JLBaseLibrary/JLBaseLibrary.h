@@ -21,3 +21,4 @@ FOUNDATION_EXPORT const unsigned char JLBaseLibraryVersionString[];
 #import "UIDevice+BSAdd.h"
 #import "UIButton+BSFly.h"
 #import "UILabel+BSFly.h"
+#import "NSTimer+BSBlockSupport.h"

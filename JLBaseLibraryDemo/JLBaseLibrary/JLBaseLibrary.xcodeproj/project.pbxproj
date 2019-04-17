@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1508BE214F84AC0060C50E /* NSTimer+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1508BC214F84AC0060C50E /* NSTimer+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1508BF214F84AC0060C50E /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1508BD214F84AC0060C50E /* NSTimer+Addition.m */; };
+		0D1508C2214F86DF0060C50E /* NSTimer+BSBlockSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1508C0214F86DF0060C50E /* NSTimer+BSBlockSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1508C3214F86DF0060C50E /* NSTimer+BSBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1508C1214F86DF0060C50E /* NSTimer+BSBlockSupport.m */; };
 		0DBDEFC0214A362300A3BD4C /* JLBaseLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBDEFBE214A362300A3BD4C /* JLBaseLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DBDEFC8214A368C00A3BD4C /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBDEFC6214A368C00A3BD4C /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DBDEFC9214A368C00A3BD4C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBDEFC7214A368C00A3BD4C /* Test.m */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D1508BC214F84AC0060C50E /* NSTimer+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		0D1508BD214F84AC0060C50E /* NSTimer+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		0D1508C0214F86DF0060C50E /* NSTimer+BSBlockSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BSBlockSupport.h"; sourceTree = "<group>"; };
+		0D1508C1214F86DF0060C50E /* NSTimer+BSBlockSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BSBlockSupport.m"; sourceTree = "<group>"; };
 		0DBDEFBB214A362300A3BD4C /* JLBaseLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLBaseLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBDEFBE214A362300A3BD4C /* JLBaseLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBaseLibrary.h; sourceTree = "<group>"; };
 		0DBDEFBF214A362300A3BD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +92,10 @@
 				0DE1A19A214B871800E37FC1 /* UIDevice+BSAdd.m */,
 				0DE1A19D214B912000E37FC1 /* UILabel+BSFly.h */,
 				0DE1A19E214B912000E37FC1 /* UILabel+BSFly.m */,
+				0D1508BC214F84AC0060C50E /* NSTimer+Addition.h */,
+				0D1508BD214F84AC0060C50E /* NSTimer+Addition.m */,
+				0D1508C0214F86DF0060C50E /* NSTimer+BSBlockSupport.h */,
+				0D1508C1214F86DF0060C50E /* NSTimer+BSBlockSupport.m */,
 			);
 			path = JLBaseLibrary;
 			sourceTree = "<group>";
@@ -100,6 +112,8 @@
 				0DBDEFC0214A362300A3BD4C /* JLBaseLibrary.h in Headers */,
 				0DE1A197214B844700E37FC1 /* UIButton+BSFly.h in Headers */,
 				0DE1A19F214B912000E37FC1 /* UILabel+BSFly.h in Headers */,
+				0D1508C2214F86DF0060C50E /* NSTimer+BSBlockSupport.h in Headers */,
+				0D1508BE214F84AC0060C50E /* NSTimer+Addition.h in Headers */,
 				0DE1A193214B482900E37FC1 /* UIImage+BSAdd.h in Headers */,
 				0DE1A19B214B871800E37FC1 /* UIDevice+BSAdd.h in Headers */,
 			);
@@ -177,7 +191,9 @@
 				0DE1A190214B42C700E37FC1 /* NSDate+Ago.m in Sources */,
 				0DE1A194214B482900E37FC1 /* UIImage+BSAdd.m in Sources */,
 				0DE1A19C214B871800E37FC1 /* UIDevice+BSAdd.m in Sources */,
+				0D1508C3214F86DF0060C50E /* NSTimer+BSBlockSupport.m in Sources */,
 				0DBDEFC9214A368C00A3BD4C /* Test.m in Sources */,
+				0D1508BF214F84AC0060C50E /* NSTimer+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

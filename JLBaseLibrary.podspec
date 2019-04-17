@@ -5,9 +5,6 @@ Pod::Spec.new do |s|
   s.name         = "JLBaseLibrary"
   s.version      = "0.0.1"
   s.summary      = "添加UIButton、UILable等基础控件的分类，方便进行开发工作"
-
-  s.description  = <<-DESC
-                   DESC
   s.homepage     = "https://github.com/search?q=JLBaseLibrary"
   s.license      = "MIT"
 

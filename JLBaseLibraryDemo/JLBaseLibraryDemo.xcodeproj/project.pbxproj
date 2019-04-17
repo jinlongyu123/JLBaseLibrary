@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1508C6214F996B0060C50E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1508C5214F996B0060C50E /* TestViewController.m */; };
+		0D4342102153959D00BAE18B /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D43420F2153959D00BAE18B /* SpeechViewController.m */; };
 		0DBDEF9D214A35C000A3BD4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBDEF9C214A35C000A3BD4C /* AppDelegate.m */; };
 		0DBDEFA0214A35C000A3BD4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBDEF9F214A35C000A3BD4C /* ViewController.m */; };
 		0DBDEFA3214A35C000A3BD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBDEFA1214A35C000A3BD4C /* Main.storyboard */; };
@@ -32,6 +34,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D1508C4214F996B0060C50E /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0D1508C5214F996B0060C50E /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0D43420E2153959D00BAE18B /* SpeechViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechViewController.h; sourceTree = "<group>"; };
+		0D43420F2153959D00BAE18B /* SpeechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
 		0DBDEF98214A35C000A3BD4C /* JLBaseLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLBaseLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBDEF9B214A35C000A3BD4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DBDEF9C214A35C000A3BD4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +94,10 @@
 				0DBDEFA6214A35C100A3BD4C /* LaunchScreen.storyboard */,
 				0DBDEFA9214A35C100A3BD4C /* Info.plist */,
 				0DBDEFAA214A35C100A3BD4C /* main.m */,
+				0D1508C4214F996B0060C50E /* TestViewController.h */,
+				0D1508C5214F996B0060C50E /* TestViewController.m */,
+				0D43420E2153959D00BAE18B /* SpeechViewController.h */,
+				0D43420F2153959D00BAE18B /* SpeechViewController.m */,
 			);
 			path = JLBaseLibraryDemo;
 			sourceTree = "<group>";
@@ -171,8 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4342102153959D00BAE18B /* SpeechViewController.m in Sources */,
 				0DBDEFA0214A35C000A3BD4C /* ViewController.m in Sources */,
 				0DBDEFAB214A35C100A3BD4C /* main.m in Sources */,
+				0D1508C6214F996B0060C50E /* TestViewController.m in Sources */,
 				0DBDEF9D214A35C000A3BD4C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
